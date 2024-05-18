@@ -7,10 +7,17 @@ function getAverage(scores){
     }
 
     // calculate avareage
-    const average = total / AuthenticatorResponse.length;
+    const average = total / scores.length;
 
     return average;
 }
 
-console.log(([92, 88, 12, 77, 57, 100, 67, 38, 97, 89]));
-console.log(([45, 87, 98, 100, 86, 94, 67, 88, 94, 95]))
+function getGrade(score){
+    let grade;
+
+
+}
+
+console.log(getGrade(96));
+console.log(getGrade(82));
+console.log(getGrade(56));
