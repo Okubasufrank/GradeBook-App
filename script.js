@@ -15,6 +15,12 @@ function getAverage(scores){
 function getGrade(score){
     let grade;
 
+    if (score === 100){
+        grade = 'A++'
+    }else if(score >= 90 && score < 100){
+        grade = 'A';
+    }    
+
 
 }
 
